@@ -718,3 +718,49 @@ Class Dotdigitalgroup\Email\Model\Email\TemplateFactory generation error: The re
 [2021-01-09 14:05:55] main.INFO: Add of item with id Yotpo_Yotpo::yotpo_report_reviews was processed [] []
 [2021-01-09 14:05:55] main.INFO: Add of item with id Yotpo_Yotpo::yotpo_reviews_external was processed [] []
 [2021-01-09 14:05:55] main.INFO: Add of item with id Yotpo_Yotpo::yotpo_analytics_external was processed [] []
+[2021-01-11 19:59:37] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-11 19:59:37] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-11 19:59:37] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-11 19:59:37] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-01-11 19:59:37] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-11 19:59:37] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-11 19:59:37] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-01-11 20:00:50] main.ERROR: There are no commands defined in the "magenteiro" namespace.
+#0 /var/www/html/magento2/vendor/symfony/console/Application.php(657): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/html/magento2/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(115): Symfony\Component\Console\Application->doRun()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2021-01-12 11:42:30] main.CRITICAL: The specified "/var/www/html/magento2/generated/code/Magento/Framework/App/Http/Interceptor.php.121859" file couldn't be written. Warning!file_put_contents(/var/www/html/magento2/generated/code/Magento/Framework/App/Http/Interceptor.php.121859): failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2021-01-12 11:42:30] main.CRITICAL: The specified "/var/www/html/magento2/generated/code/Magento/Framework/App/Http/Interceptor.php.121859" file couldn't be written. Warning!file_put_contents(/var/www/html/magento2/generated/code/Magento/Framework/App/Http/Interceptor.php.121859): failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2021-01-12 11:44:56] main.CRITICAL: The specified "/var/www/html/magento2/generated/code/Magento/Framework/App/Http/Interceptor.php.121862" file couldn't be written. Warning!file_put_contents(/var/www/html/magento2/generated/code/Magento/Framework/App/Http/Interceptor.php.121862): failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2021-01-12 11:44:56] main.CRITICAL: The specified "/var/www/html/magento2/generated/code/Magento/Framework/App/Http/Interceptor.php.121862" file couldn't be written. Warning!file_put_contents(/var/www/html/magento2/generated/code/Magento/Framework/App/Http/Interceptor.php.121862): failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2021-01-12 11:46:04] main.ERROR: Too many arguments, expected arguments "command".
+#0 /var/www/html/magento2/vendor/symfony/console/Input/ArgvInput.php(83): Symfony\Component\Console\Input\ArgvInput->parseArgument()
+#1 /var/www/html/magento2/vendor/symfony/console/Input/Input.php(55): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 /var/www/html/magento2/vendor/symfony/console/Command/Command.php(214): Symfony\Component\Console\Input\Input->bind()
+#3 /var/www/html/magento2/vendor/symfony/console/Application.php(1009): Symfony\Component\Console\Command\Command->run()
+#4 /var/www/html/magento2/vendor/symfony/console/Application.php(273): Symfony\Component\Console\Application->doRunCommand()
+#5 /var/www/html/magento2/vendor/magento/framework/Console/Cli.php(115): Symfony\Component\Console\Application->doRun()
+#6 /var/www/html/magento2/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#7 /var/www/html/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#8 {main} [] []
+[2021-01-12 11:52:05] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-12 11:52:05] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-12 11:52:05] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-12 11:52:05] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-01-12 11:52:05] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-12 11:52:05] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-12 11:52:05] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []
+[2021-01-13 22:27:25] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-13 22:27:25] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-13 22:27:25] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-13 22:27:25] main.INFO: Broken reference: the 'yotpo_bottomline' element cannot be added as child to 'product.info.main', because the latter doesn't exist [] []
+[2021-01-13 22:27:25] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-13 22:27:25] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2021-01-13 22:27:25] main.INFO: Broken reference: the 'yotpo_bottomline' tries to reorder itself towards 'product.info.addto', but their parents are different: 'product.info.main' and '' respectively. [] []

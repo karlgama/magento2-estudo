@@ -8,7 +8,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class TestCommand extends Command
 {
-    protected function configure()
+    protected function configure() : void
     {
         $this->setName('magenteiro:teste')
         ->setDescription("Primeiro comando");
@@ -16,8 +16,14 @@ class TestCommand extends Command
 
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output) : void
     {
         $output->writeln('Olá terminal');
+        $output->writeln($this->formatText('>','<'));
+    }
+
+    public function formatText($prefix, $suffix) : string
+    {
+        return $prefix . "SOME TEXT" . $suffix;
     }
 }

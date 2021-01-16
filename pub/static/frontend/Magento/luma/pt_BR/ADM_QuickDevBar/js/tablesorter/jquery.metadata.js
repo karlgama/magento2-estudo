@@ -1,1 +1,0 @@
-/var/www/html/magento2/vendor/vpietri/adm-quickdevbar/view/base/web/js/tablesorter/jquery.metadata.js

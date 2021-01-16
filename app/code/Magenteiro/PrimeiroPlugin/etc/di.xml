@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <type name="Magenteiro\PrimeiroModulo\Console\Command\TestCommand">
+        <plugin name="primeiro_plugin" sortOrder="10" type="Magenteiro\PrimeiroPlugin\Plugin\MeuPlugin"/>
+    </type>
+
+</config>
