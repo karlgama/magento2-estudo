@@ -9,7 +9,7 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 
 class InstallData implements InstallDataInterface
 {
-    /**  @var \Magento\Eav\Setup\EavSetup */
+    /**  @var \Magento\Eav\Setup\EavSetupFactory */
     private $eavSetupFactory;
 
     public function __construct(EavSetupFactory $eavSetupFactory)
